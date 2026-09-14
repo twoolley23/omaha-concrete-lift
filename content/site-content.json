@@ -1,0 +1,835 @@
+{
+  "brand": {
+    "name": "Omaha Concrete Lift",
+    "tagline": "Free Local Quotes for Concrete Leveling in Omaha",
+    "value_prop": "We connect Omaha-area homeowners with vetted, local concrete leveling contractors in minutes — no cost, no obligation.",
+    "voice_tone_guidelines": [
+      "Plain, confident, and neighborly — talk like a knowledgeable local, not a salesperson.",
+      "Always transparent about being a referral/matching service, never implying we do the work ourselves.",
+      "Practical and educational: explain the 'why' behind settling concrete and leveling methods in plain English.",
+      "No hype, no fake urgency, no invented statistics or guarantees — confident but honest.",
+      "Mobile-first, short paragraphs, scannable headers and bullet points over dense text blocks."
+    ],
+    "elevator_pitch": "Omaha Concrete Lift helps homeowners across the Omaha metro find qualified, local concrete leveling contractors for sunken driveways, sidewalks, patios, and garage slabs. Tell us what's going on with one quick form, and we route your project to local pros who can give you a real quote — free, fast, and with zero obligation."
+  },
+  "seo": {
+    "site_title_template": "%PAGE_TITLE% | Omaha Concrete Lift",
+    "meta_description_home": "Get free, no-obligation quotes from local Omaha concrete leveling contractors. We match your driveway, sidewalk, or patio project with vetted pros nearby.",
+    "primary_keywords": [
+      "concrete leveling Omaha",
+      "concrete lifting Omaha NE",
+      "mudjacking Omaha",
+      "polyjacking Omaha",
+      "driveway leveling Omaha",
+      "sidewalk leveling Omaha",
+      "sunken concrete repair Omaha"
+    ],
+    "secondary_keywords": [
+      "concrete slab leveling near me",
+      "garage floor leveling Omaha",
+      "patio leveling Omaha",
+      "polyurethane foam concrete lifting",
+      "cost of mudjacking vs polyjacking",
+      "fix sinking driveway Omaha",
+      "concrete leveling contractors Nebraska",
+      "free concrete leveling quote"
+    ],
+    "local_modifiers": [
+      "Omaha",
+      "Bellevue",
+      "Papillion",
+      "La Vista",
+      "Elkhorn",
+      "Gretna",
+      "Millard",
+      "Ralston",
+      "Council Bluffs IA",
+      "Fremont NE"
+    ],
+    "per_page_meta": {
+      "home": {
+        "title": "Omaha Concrete Lift | Free Concrete Leveling Quotes in Omaha, NE",
+        "description": "Get free, no-obligation quotes from local Omaha concrete leveling contractors. We match your driveway, sidewalk, or patio project with vetted pros nearby."
+      },
+      "services-concrete-lifting": {
+        "title": "Concrete Lifting in Omaha, NE | Free Local Quotes",
+        "description": "Sinking concrete? Get matched with local Omaha concrete lifting contractors for driveways, walkways, patios, and slabs. Fast, free, no-obligation quotes."
+      },
+      "services-mudjacking": {
+        "title": "Mudjacking in Omaha, NE | Compare Local Contractor Quotes",
+        "description": "Considering mudjacking to raise a sunken slab? We connect Omaha homeowners with experienced local mudjacking contractors. Request a free quote today."
+      },
+      "services-polyjacking": {
+        "title": "Polyjacking (Foam Concrete Lifting) in Omaha, NE",
+        "description": "Explore polyjacking/polyurethane foam lifting for your Omaha driveway or patio. Get matched with local contractors who offer foam concrete leveling."
+      },
+      "services-driveway-leveling": {
+        "title": "Driveway Leveling in Omaha, NE | Free Contractor Matching",
+        "description": "Uneven or sunken driveway in Omaha? Get free quotes from local driveway concrete leveling contractors. No cost, no obligation, fast response."
+      },
+      "services-sidewalk-leveling": {
+        "title": "Sidewalk Leveling in Omaha, NE | Trip-Hazard Repair Quotes",
+        "description": "Fix a tripping-hazard sidewalk slab in Omaha. Get matched with local concrete leveling contractors for a free, no-obligation repair quote."
+      },
+      "services-patio-leveling": {
+        "title": "Patio Leveling in Omaha, NE | Free Local Quotes",
+        "description": "Sunken or uneven patio in Omaha? Request a free quote and get matched with local concrete leveling contractors near you."
+      },
+      "services-garage-slab-leveling": {
+        "title": "Garage Slab Leveling in Omaha, NE | Free Contractor Quotes",
+        "description": "Settling garage floor slab? Get connected with local Omaha contractors who specialize in garage slab leveling and concrete lifting."
+      },
+      "service-areas": {
+        "title": "Omaha Metro Service Areas | Omaha Concrete Lift",
+        "description": "We help route concrete leveling quote requests across Omaha, Bellevue, Papillion, La Vista, Elkhorn, Gretna, Millard, Ralston, Council Bluffs & Fremont."
+      },
+      "how-it-works": {
+        "title": "How It Works | Omaha Concrete Lift Quote Matching",
+        "description": "See exactly how Omaha Concrete Lift works: submit one form, we route it to local concrete leveling contractors, and you compare free quotes."
+      },
+      "faq": {
+        "title": "Concrete Leveling FAQ | Omaha Concrete Lift",
+        "description": "Answers to common questions about concrete leveling, mudjacking vs. polyjacking, causes of sinking slabs, and what to expect from local contractors."
+      },
+      "about": {
+        "title": "About Omaha Concrete Lift | Independent Referral Service",
+        "description": "Omaha Concrete Lift is an independent lead-matching site, not a contractor. Learn how our referral model works and what that means for you."
+      },
+      "contact": {
+        "title": "Request a Free Concrete Leveling Quote | Omaha Concrete Lift",
+        "description": "Tell us about your project and we'll route your request to local Omaha concrete leveling contractors. Free, fast, no obligation."
+      },
+      "privacy-policy": {
+        "title": "Privacy Policy | Omaha Concrete Lift",
+        "description": "Read how Omaha Concrete Lift collects, uses, and shares information submitted through our concrete leveling quote request form."
+      },
+      "terms-of-service": {
+        "title": "Terms of Service | Omaha Concrete Lift",
+        "description": "The terms governing your use of the Omaha Concrete Lift website and quote-matching service."
+      },
+      "referral-disclosure": {
+        "title": "Referral Disclosure | Omaha Concrete Lift",
+        "description": "Omaha Concrete Lift is a referral marketing site, not a contractor. Read our full disclosure on how we're compensated and what we do and don't guarantee."
+      },
+      "404": {
+        "title": "Page Not Found | Omaha Concrete Lift",
+        "description": "The page you're looking for isn't here. Head back to Omaha Concrete Lift to request a free local concrete leveling quote."
+      }
+    },
+    "internal_linking_suggestions": [
+      "Every service page (mudjacking, polyjacking, driveway/sidewalk/patio/garage) should link to each other as 'related methods' or 'related services' to build topical clusters.",
+      "Every service page should link to 'service-areas' and to 'contact' with a clear CTA button.",
+      "Home page should link out to all 7 service pages via a services grid, plus 'how-it-works' and 'faq'.",
+      "Footer (sitewide) should link to: about, how-it-works, referral-disclosure, privacy-policy, terms-of-service, contact — every page, every time, for transparency and crawlability.",
+      "FAQ page should link contextually into relevant service pages (e.g., the mudjacking-vs-polyjacking answer links to both method pages).",
+      "About and How-It-Works should cross-link to referral-disclosure wherever the business model or compensation is mentioned.",
+      "Service-areas page should link each suburb mention to the contact page with a localized CTA (e.g., 'Get a free quote in Papillion').",
+      "Use breadcrumb navigation (Home > Services > [Service]) on all service subpages for both UX and BreadcrumbList schema."
+    ],
+    "target_search_intents": {
+      "home": "Broad commercial/navigational intent — 'concrete leveling Omaha' shoppers comparing options.",
+      "services-*": "Commercial investigational intent — users who know the method name or symptom and want to understand it + get a quote.",
+      "service-areas": "Local intent — users confirming coverage in their specific suburb.",
+      "how-it-works": "Trust/consideration intent — users vetting legitimacy of the site before submitting info.",
+      "faq": "Informational intent — top-of-funnel research (e.g., 'why is my driveway sinking').",
+      "about": "Trust/consideration intent — users checking legitimacy before submitting a lead.",
+      "contact": "Transactional intent — ready-to-convert users.",
+      "privacy-policy / terms-of-service / referral-disclosure": "Trust/compliance intent — low search volume, but essential for E-E-A-T and legal transparency."
+    }
+  },
+  "pages": {
+    "home": {
+      "h1": "Find a Trusted Concrete Leveling Contractor in Omaha — Free Quotes",
+      "hero_subhead": "Sunken driveway, cracked sidewalk, or uneven patio? Tell us what's going on and we'll match you with local, experienced concrete leveling contractors near you. No cost, no obligation.",
+      "body_sections": [
+        {
+          "heading": "One Form. Local Contractors. No Pressure.",
+          "body_html_or_markdown": "<p>Concrete doesn't sink overnight, and fixing it shouldn't take forever either. Omaha Concrete Lift is a free matching service that connects homeowners across the Omaha metro with local concrete leveling contractors who handle mudjacking, polyjacking, and full slab leveling for driveways, sidewalks, patios, and garage floors.</p><p>Fill out one short form, and we'll route your project details to contractors serving your area. They'll reach out directly to discuss your project and provide a quote — you decide who, if anyone, you want to hire.</p><p><em>Omaha Concrete Lift is an independent referral service. We are not a contractor and do not perform concrete leveling work ourselves. <a href=\"/how-it-works\">Learn how our matching service works</a> or read our full <a href=\"/referral-disclosure\">referral disclosure</a>.</em></p>"
+        },
+        {
+          "heading": "Common Concrete Problems We Help Homeowners Address",
+          "body_html_or_markdown": "<ul><li>Sunken or sloping driveway sections</li><li>Sidewalk slabs that have become trip hazards</li><li>Patios that pool water or tilt away from the house</li><li>Garage floor slabs settling near the door or foundation</li><li>Pool decks, steps, and porch slabs that have shifted</li></ul><p>Whatever the symptom, the fix usually starts the same way: an on-site look from a local pro who can tell you what's happening underneath the slab and what it will take to correct it.</p>"
+        },
+        {
+          "heading": "Why Homeowners Use a Matching Service Instead of Searching Alone",
+          "body_html_or_markdown": "<p>Searching for 'concrete leveling near me' can turn into an hour of scrolling through directories and cold-calling companies that don't serve your neighborhood. Instead, you submit your project once, and we forward it to contractors who work in your area and specialize in the type of leveling you need.</p><p>This costs you nothing, and it doesn't commit you to hiring anyone. You're always free to compare quotes, ask questions, and choose the option that makes sense for your home and budget.</p>"
+        },
+        {
+          "heading": "Explore Concrete Leveling Methods",
+          "body_html_or_markdown": "<ul><li><a href=\"/services-concrete-lifting\">Concrete Lifting Overview</a></li><li><a href=\"/services-mudjacking\">Mudjacking</a></li><li><a href=\"/services-polyjacking\">Polyjacking (Foam Injection)</a></li><li><a href=\"/services-driveway-leveling\">Driveway Leveling</a></li><li><a href=\"/services-sidewalk-leveling\">Sidewalk Leveling</a></li><li><a href=\"/services-patio-leveling\">Patio Leveling</a></li><li><a href=\"/services-garage-slab-leveling\">Garage Slab Leveling</a></li></ul>"
+        }
+      ],
+      "cta_text": "Ready to get your concrete looked at? Tell us about your project and we'll connect you with local contractors who can help.",
+      "cta_button_label": "Get My Free Quote"
+    },
+    "services-concrete-lifting": {
+      "h1": "Concrete Lifting Services in Omaha, NE",
+      "hero_subhead": "Concrete lifting raises sunken slabs back to (or near) their original position without full replacement. See how it works and get matched with local Omaha contractors.",
+      "body_sections": [
+        {
+          "heading": "Overview",
+          "body_html_or_markdown": "<p>\"Concrete lifting\" is the umbrella term for methods that raise a settled or sunken concrete slab back into place, instead of tearing it out and pouring new concrete. The two most common approaches used by contractors in the Omaha area are <a href=\"/services-mudjacking\">mudjacking</a> (injecting a cement-based slurry) and <a href=\"/services-polyjacking\">polyjacking</a> (injecting expanding polyurethane foam). Both aim to fill voids under the slab and lift it back to grade.</p><p><em>Omaha Concrete Lift is an independent referral service. We are not a contractor and do not perform concrete leveling work ourselves. <a href=\"/how-it-works\">Learn how our matching service works</a> or read our full <a href=\"/referral-disclosure\">referral disclosure</a>.</em></p>"
+        },
+        {
+          "heading": "How This Method Generally Works",
+          "body_html_or_markdown": "<p>In general, a contractor drills small holes (often 5/8\" to 1.5\" depending on method and equipment) through the slab, pumps material underneath to fill voids and lift the slab, then patches the holes. The exact process, hole size, material, and cure time varies by contractor and by the specific method used — always confirm details with the contractor who quotes your project.</p>"
+        },
+        {
+          "heading": "Signs You May Need This Service",
+          "body_html_or_markdown": "<ul><li>One or more corners or edges of a slab sit lower than the rest</li><li>Visible gaps or cracks where two slab sections meet</li><li>Water pooling in areas that used to drain properly</li><li>A slab that has become a trip hazard</li><li>Doors or gates that no longer clear a nearby slab</li></ul>"
+        },
+        {
+          "heading": "Related Services",
+          "body_html_or_markdown": "<p>Explore specific applications: <a href=\"/services-driveway-leveling\">driveways</a>, <a href=\"/services-sidewalk-leveling\">sidewalks</a>, <a href=\"/services-patio-leveling\">patios</a>, and <a href=\"/services-garage-slab-leveling\">garage floors</a>.</p>"
+        }
+      ],
+      "cta_text": "Not sure which method fits your situation? Submit your project details and let a local contractor assess it in person.",
+      "cta_button_label": "Get My Free Quote"
+    },
+    "services-mudjacking": {
+      "h1": "Mudjacking Services in Omaha, NE",
+      "hero_subhead": "Mudjacking is a long-standing method for raising sunken concrete using a cement-based slurry. Get matched with local Omaha contractors who offer it.",
+      "body_sections": [
+        {
+          "heading": "Overview",
+          "body_html_or_markdown": "<p>Mudjacking (sometimes called slab jacking) is one of the oldest and most widely used concrete lifting methods. A contractor pumps a mixture typically made of soil, sand, cement, and water beneath a settled slab to fill voids and raise it back toward its original position.</p><p><em>Omaha Concrete Lift is an independent referral service. We are not a contractor and do not perform concrete leveling work ourselves. <a href=\"/how-it-works\">Learn how our matching service works</a> or read our full <a href=\"/referral-disclosure\">referral disclosure</a>.</em></p>"
+        },
+        {
+          "heading": "How This Method Generally Works",
+          "body_html_or_markdown": "<p>Holes are drilled into the slab (commonly around 1.5 to 2 inches, though this varies by contractor), the slurry mix is pumped underneath under pressure, and the slab is monitored as it lifts. Holes are then patched. Because the mix is heavier than foam alternatives, some contractors prefer it for certain soil types or larger slabs — but material choice, pricing, and technique vary by company, so ask your matched contractor about their specific process.</p>"
+        },
+        {
+          "heading": "Signs You May Need This Service",
+          "body_html_or_markdown": "<ul><li>Large driveway or patio slabs with significant settling</li><li>Budget-conscious projects where a heavier, traditional fill material is preferred</li><li>Situations where a contractor's experience and local soil knowledge favor a cement-based approach</li></ul>"
+        },
+        {
+          "heading": "Related Services",
+          "body_html_or_markdown": "<p>Compare with <a href=\"/services-polyjacking\">polyjacking</a>, a lighter-weight foam-based alternative, or explore <a href=\"/services-concrete-lifting\">concrete lifting</a> in general.</p>"
+        }
+      ],
+      "cta_text": "Curious whether mudjacking is right for your slab? Request a free quote and a local contractor can advise you.",
+      "cta_button_label": "Get My Free Quote"
+    },
+    "services-polyjacking": {
+      "h1": "Polyjacking (Polyurethane Foam Concrete Lifting) in Omaha, NE",
+      "hero_subhead": "Polyjacking uses expanding polyurethane foam to lift sunken concrete. Get matched with local Omaha contractors offering this method.",
+      "body_sections": [
+        {
+          "heading": "Overview",
+          "body_html_or_markdown": "<p>Polyjacking — also called polyurethane foam injection or foam jacking — uses a lightweight, expanding two-part foam instead of traditional slurry. The foam is injected beneath the slab, where it expands to fill voids and lift the concrete.</p><p><em>Omaha Concrete Lift is an independent referral service. We are not a contractor and do not perform concrete leveling work ourselves. <a href=\"/how-it-works\">Learn how our matching service works</a> or read our full <a href=\"/referral-disclosure\">referral disclosure</a>.</em></p>"
+        },
+        {
+          "heading": "How This Method Generally Works",
+          "body_html_or_markdown": "<p>Contractors typically drill smaller holes than mudjacking requires (often around 5/8 inch, though this varies), inject the foam, and the slab can often be walked on again relatively quickly after treatment — actual cure and return-to-use times vary by contractor, product, and project size. The foam is generally lighter and more water-resistant than cement slurry, which some contractors point to as an advantage for certain soil or drainage conditions.</p>"
+        },
+        {
+          "heading": "Signs You May Need This Service",
+          "body_html_or_markdown": "<ul><li>Homeowners who want a less invasive repair with smaller holes</li><li>Areas with drainage or moisture concerns where a water-resistant fill material may be preferred</li><li>Projects where minimizing weight added to the sub-base matters</li></ul>"
+        },
+        {
+          "heading": "Related Services",
+          "body_html_or_markdown": "<p>Compare with traditional <a href=\"/services-mudjacking\">mudjacking</a>, or see the <a href=\"/services-concrete-lifting\">concrete lifting overview</a>.</p>"
+        }
+      ],
+      "cta_text": "Want to know if polyjacking fits your project and budget? Get a free quote from a local contractor.",
+      "cta_button_label": "Get My Free Quote"
+    },
+    "services-driveway-leveling": {
+      "h1": "Driveway Leveling in Omaha, NE",
+      "hero_subhead": "Sunken, sloping, or cracked driveway sections? Get matched with local Omaha contractors who specialize in driveway concrete leveling.",
+      "body_sections": [
+        {
+          "heading": "Overview",
+          "body_html_or_markdown": "<p>Driveways are exposed to heavy, repeated vehicle loads, freeze-thaw cycles, and drainage patterns that can cause sections to settle unevenly over time. Leveling a driveway typically means lifting the sunken slab section(s) back toward grade rather than replacing the whole driveway.</p><p><em>Omaha Concrete Lift is an independent referral service. We are not a contractor and do not perform concrete leveling work ourselves. <a href=\"/how-it-works\">Learn how our matching service works</a> or read our full <a href=\"/referral-disclosure\">referral disclosure</a>.</em></p>"
+        },
+        {
+          "heading": "How This Method Generally Works",
+          "body_html_or_markdown": "<p>A contractor will usually inspect the affected panels, check for adequate support beneath them, and choose a lifting method (mudjacking or polyjacking) suited to the slab thickness, traffic load, and soil conditions. Whether one panel or several need attention depends entirely on your specific driveway — a contractor can assess this on-site.</p>"
+        },
+        {
+          "heading": "Signs You May Need This Service",
+          "body_html_or_markdown": "<ul><li>A visible dip or step where two driveway panels meet</li><li>Water collecting near the garage entrance or low points</li><li>Panels that rock or feel unstable underfoot or under a vehicle</li><li>Cracking concentrated around one section rather than spread evenly</li></ul>"
+        },
+        {
+          "heading": "Related Services",
+          "body_html_or_markdown": "<p>See also <a href=\"/services-garage-slab-leveling\">garage slab leveling</a> for adjoining areas, or the <a href=\"/services-concrete-lifting\">general concrete lifting overview</a>.</p>"
+        }
+      ],
+      "cta_text": "Get your driveway assessed for free by a local, experienced contractor.",
+      "cta_button_label": "Get My Free Quote"
+    },
+    "services-sidewalk-leveling": {
+      "h1": "Sidewalk Leveling in Omaha, NE",
+      "hero_subhead": "Uneven sidewalk slabs are a common trip hazard. Get matched with local Omaha contractors who level sidewalks quickly and affordably.",
+      "body_sections": [
+        {
+          "heading": "Overview",
+          "body_html_or_markdown": "<p>Sidewalk panels are narrow and close to grade, which makes even small amounts of settling noticeable — and potentially a tripping hazard or a liability concern for homeowners, HOAs, or municipalities.</p><p><em>Omaha Concrete Lift is an independent referral service. We are not a contractor and do not perform concrete leveling work ourselves. <a href=\"/how-it-works\">Learn how our matching service works</a> or read our full <a href=\"/referral-disclosure\">referral disclosure</a>.</em></p>"
+        },
+        {
+          "heading": "How This Method Generally Works",
+          "body_html_or_markdown": "<p>Because sidewalk slabs are typically smaller and thinner than driveways, many contractors can complete leveling on a single panel relatively quickly compared to larger slabs — but exact timelines vary by contractor, access, and the number of panels involved.</p>"
+        },
+        {
+          "heading": "Signs You May Need This Service",
+          "body_html_or_markdown": "<ul><li>A visible lip or step-up between two adjoining sidewalk panels</li><li>A panel that rocks slightly when stepped on</li><li>Sections near tree roots or utility lines that have shifted</li><li>City or HOA notices about a trip-hazard sidewalk slab</li></ul>"
+        },
+        {
+          "heading": "Related Services",
+          "body_html_or_markdown": "<p>See related: <a href=\"/services-patio-leveling\">patio leveling</a> and the <a href=\"/services-concrete-lifting\">concrete lifting overview</a>.</p>"
+        }
+      ],
+      "cta_text": "Get a free quote to fix a trip-hazard sidewalk before it becomes a bigger problem.",
+      "cta_button_label": "Get My Free Quote"
+    },
+    "services-patio-leveling": {
+      "h1": "Patio Leveling in Omaha, NE",
+      "hero_subhead": "Sunken or tilted patio slab pooling water or pulling away from your home? Get matched with local Omaha concrete leveling contractors.",
+      "body_sections": [
+        {
+          "heading": "Overview",
+          "body_html_or_markdown": "<p>Patios can settle unevenly due to soil compaction, poor original grading, or moisture changes beneath the slab. The result is often a patio that pools water, tilts toward the house, or separates from an attached structure.</p><p><em>Omaha Concrete Lift is an independent referral service. We are not a contractor and do not perform concrete leveling work ourselves. <a href=\"/how-it-works\">Learn how our matching service works</a> or read our full <a href=\"/referral-disclosure\">referral disclosure</a>.</em></p>"
+        },
+        {
+          "heading": "How This Method Generally Works",
+          "body_html_or_markdown": "<p>A contractor will typically evaluate the slope and drainage direction of the slab as part of the assessment, since leveling should generally restore water flow away from the home, not just make the surface flat. Specific grading targets and lifting technique depend on the contractor's evaluation of your patio.</p>"
+        },
+        {
+          "heading": "Signs You May Need This Service",
+          "body_html_or_markdown": "<ul><li>Water pooling on the patio after rain instead of draining away</li><li>A visible gap between the patio and the house foundation</li><li>Furniture or grills that no longer sit level</li><li>Cracking concentrated along one edge of the slab</li></ul>"
+        },
+        {
+          "heading": "Related Services",
+          "body_html_or_markdown": "<p>See also <a href=\"/services-sidewalk-leveling\">sidewalk leveling</a> or the <a href=\"/services-concrete-lifting\">concrete lifting overview</a>.</p>"
+        }
+      ],
+      "cta_text": "Request a free quote to get your patio's drainage and level restored.",
+      "cta_button_label": "Get My Free Quote"
+    },
+    "services-garage-slab-leveling": {
+      "h1": "Garage Slab Leveling in Omaha, NE",
+      "hero_subhead": "Settling garage floor slab near the door or foundation? Get matched with local Omaha contractors who handle garage slab leveling.",
+      "body_sections": [
+        {
+          "heading": "Overview",
+          "body_html_or_markdown": "<p>Garage floor slabs can settle where they meet the driveway apron or foundation, often due to soil compaction or moisture changes beneath the slab edge. This can create a step, gap, or drainage issue right at the garage entrance.</p><p><em>Omaha Concrete Lift is an independent referral service. We are not a contractor and do not perform concrete leveling work ourselves. <a href=\"/how-it-works\">Learn how our matching service works</a> or read our full <a href=\"/referral-disclosure\">referral disclosure</a>.</em></p>"
+        },
+        {
+          "heading": "How This Method Generally Works",
+          "body_html_or_markdown": "<p>Because garage slabs sit close to the home's foundation, contractors typically inspect the transition area carefully before choosing a lifting approach, to avoid affecting the foundation itself. The right method and scope depend on the contractor's on-site evaluation.</p>"
+        },
+        {
+          "heading": "Signs You May Need This Service",
+          "body_html_or_markdown": "<ul><li>A step or lip where the garage floor meets the driveway apron</li><li>Water entering the garage during rain</li><li>Visible gap between the slab and the garage door track or foundation wall</li><li>Cracking concentrated near the garage door opening</li></ul>"
+        },
+        {
+          "heading": "Related Services",
+          "body_html_or_markdown": "<p>See also <a href=\"/services-driveway-leveling\">driveway leveling</a> or the <a href=\"/services-concrete-lifting\">concrete lifting overview</a>.</p>"
+        }
+      ],
+      "cta_text": "Get a free quote to address a settling garage slab before water or foundation issues develop.",
+      "cta_button_label": "Get My Free Quote"
+    },
+    "service-areas": {
+      "h1": "Concrete Leveling Service Areas Across the Omaha Metro",
+      "hero_subhead": "We route quote requests to local contractors serving Omaha and the surrounding communities.",
+      "body_sections": [
+        {
+          "heading": "Where We Help Route Requests",
+          "body_html_or_markdown": "<p>Omaha Concrete Lift helps homeowners across the greater Omaha metro connect with local concrete leveling contractors. Whether you're in the city or a surrounding suburb, submit your project details and we'll do our best to match you with a contractor who serves your area.</p><p><em>Omaha Concrete Lift is an independent referral service. We are not a contractor and do not perform concrete leveling work ourselves. <a href=\"/how-it-works\">Learn how our matching service works</a> or read our full <a href=\"/referral-disclosure\">referral disclosure</a>.</em></p>"
+        },
+        {
+          "heading": "Communities We Serve",
+          "body_html_or_markdown": "<ul><li><strong>Omaha</strong> — Omaha's mix of older established neighborhoods and newer developments means concrete leveling needs range from historic sidewalk repair to modern driveway settling. <a href=\"/contact\">Get a free quote in Omaha</a></li><li><strong>Bellevue</strong> — Bellevue homeowners often deal with sloped-lot driveways and patios affected by drainage and grading. <a href=\"/contact\">Get a free quote in Bellevue</a></li><li><strong>Papillion</strong> — Papillion's newer subdivisions can still see slab settling as soil beneath driveways and patios compacts over the first several years. <a href=\"/contact\">Get a free quote in Papillion</a></li><li><strong>La Vista</strong> — La Vista's mix of housing ages means both older sidewalk trip hazards and newer driveway settling are common requests. <a href=\"/contact\">Get a free quote in La Vista</a></li><li><strong>Elkhorn</strong> — Elkhorn's rapid growth has brought a lot of newer concrete that can settle as surrounding soil finishes compacting. <a href=\"/contact\">Get a free quote in Elkhorn</a></li><li><strong>Gretna</strong> — Gretna homeowners in newer developments sometimes see early settling around garage slabs and driveway aprons. <a href=\"/contact\">Get a free quote in Gretna</a></li><li><strong>Millard</strong> — Millard's established neighborhoods often need sidewalk and driveway leveling as decades-old concrete settles. <a href=\"/contact\">Get a free quote in Millard</a></li><li><strong>Ralston</strong> — Ralston's compact, older housing stock frequently needs sidewalk and patio leveling in tight lot spaces. <a href=\"/contact\">Get a free quote in Ralston</a></li><li><strong>Council Bluffs IA</strong> — Just across the river, Council Bluffs homeowners face similar freeze-thaw and soil conditions that lead to driveway and patio settling. <a href=\"/contact\">Get a free quote in Council Bluffs</a></li><li><strong>Fremont NE</strong> — Fremont-area properties, including some acreages, often deal with larger driveway and patio slabs needing leveling. <a href=\"/contact\">Get a free quote in Fremont</a></li></ul>"
+        },
+        {
+          "heading": "Don't See Your City?",
+          "body_html_or_markdown": "<p>Contractor coverage areas change and vary by company. If your community isn't listed, submit a quote request anyway — we'll do our best to find a contractor who services your location. Exact coverage is ultimately determined by the contractors in our network, not by Omaha Concrete Lift.</p>"
+        }
+      ],
+      "cta_text": "Wherever you are in the Omaha metro, start with one free quote request.",
+      "cta_button_label": "Get My Free Quote"
+    },
+    "how-it-works": {
+      "h1": "How Omaha Concrete Lift Works",
+      "hero_subhead": "We're a free matching service, not a contractor. Here's exactly what happens when you submit a quote request.",
+      "body_sections": [
+        {
+          "heading": "We're a Referral Service, Not a Contractor",
+          "body_html_or_markdown": "<p>Omaha Concrete Lift does not perform concrete leveling, mudjacking, or polyjacking work. We are an independent marketing and lead-matching website. Our job is to take the information you submit about your project and share it with local, independent concrete leveling contractors who may be able to help.</p><p>For the full picture of how this business model works and how we may be compensated, see our <a href=\"/referral-disclosure\">referral disclosure</a>.</p>"
+        },
+        {
+          "heading": "The Process, Step by Step",
+          "body_html_or_markdown": "<ol><li><strong>You tell us about your project.</strong> Fill out our short <a href=\"/contact\">quote form</a> with your name, contact info, property location, and a brief description of what's going on with your concrete.</li><li><strong>We route your request.</strong> Your information is shared with one or more local concrete leveling contractors who serve your area and match the service you're requesting.</li><li><strong>Contractors contact you directly.</strong> A contractor (or contractors) may call, text, or email you to discuss your project, ask follow-up questions, and, if appropriate, schedule an on-site visit.</li><li><strong>You compare and decide.</strong> Any quote, timeline, or scope of work comes directly from the contractor, not from Omaha Concrete Lift. You are never obligated to hire anyone.</li></ol>"
+        },
+        {
+          "heading": "What We Don't Do",
+          "body_html_or_markdown": "<ul><li>We don't perform concrete leveling, mudjacking, or polyjacking work ourselves.</li><li>We don't hold a contractor license, and we're not claiming to be a licensed contractor.</li><li>We don't guarantee a specific contractor will contact you, or that any quote will meet a certain price.</li><li>We don't control the quality, pricing, licensing, or insurance status of any contractor in our network — you should always verify a contractor's license and insurance directly before hiring them.</li></ul>"
+        },
+        {
+          "heading": "How We're Paid",
+          "body_html_or_markdown": "<p>We may receive a referral fee or other compensation from contractors when we send them a lead. This does not cost you anything, and it does not change the price a contractor quotes you. See our full <a href=\"/referral-disclosure\">referral disclosure</a> for details.</p>"
+        }
+      ],
+      "cta_text": "Ready to see who's available in your area? Submit your project details now.",
+      "cta_button_label": "Start My Free Quote Request"
+    },
+    "faq": {
+      "h1": "Concrete Leveling FAQ",
+      "hero_subhead": "General, honest answers to common questions about concrete leveling, mudjacking, and polyjacking. For project-specific numbers, a local contractor quote is always the most accurate source.",
+      "body_sections": [
+        {
+          "heading": "Why does concrete sink or settle in the first place?",
+          "body_html_or_markdown": "<p>Concrete slabs themselves don't usually deteriorate — the soil underneath them does. Common causes include soil compaction over time, erosion from water runoff, poor original sub-base preparation, freeze-thaw cycles, and organic material that decomposes under the slab and leaves a void. Once support underneath the slab is lost, gravity and traffic load cause it to settle unevenly.</p>"
+        },
+        {
+          "heading": "What's the difference between mudjacking and polyjacking?",
+          "body_html_or_markdown": "<p>Mudjacking uses a cement-based slurry pumped beneath the slab to fill voids and lift it, typically through larger drilled holes. Polyjacking uses an expanding polyurethane foam injected through smaller holes. Foam is generally lighter and more water-resistant, while slurry is a heavier, longer-established material. Cost, hole size, cure time, and suitability for your specific project varies by contractor and by soil/site conditions — a local contractor can advise which fits your project best.</p>"
+        },
+        {
+          "heading": "How much does concrete leveling cost?",
+          "body_html_or_markdown": "<p>Cost varies by contractor, region, slab size, method (mudjacking vs. polyjacking), and how much lifting is needed. There isn't a single reliable number we can quote here — pricing varies by contractor and project, which is exactly why getting a few quotes from local pros is useful.</p>"
+        },
+        {
+          "heading": "How long does a concrete leveling job typically take?",
+          "body_html_or_markdown": "<p>Many residential leveling jobs (a driveway panel, a sidewalk slab, a small patio) can be completed in a matter of hours to a single day, but this varies by contractor, method, equipment, and the size/scope of the project. A contractor can give you a project-specific estimate after assessing the site.</p>"
+        },
+        {
+          "heading": "Is concrete leveling a permanent fix?",
+          "body_html_or_markdown": "<p>Concrete leveling addresses the existing void and settling at the time of the repair, but if the underlying cause (drainage, soil erosion, an ongoing leak, etc.) isn't resolved, settling can recur over time. Ask your contractor what, if anything, they recommend to address the root cause, and what warranty (if any) they offer — warranty terms vary by contractor.</p>"
+        },
+        {
+          "heading": "Can concrete leveling fix a cracked slab, or do I need full replacement?",
+          "body_html_or_markdown": "<p>Leveling raises a slab back toward its original position; it doesn't repair existing cracks, though many contractors can seal or patch cracks as part of the job. Whether leveling makes sense versus full replacement depends on the extent of cracking, slab age, and condition — this varies by contractor and by inspection findings.</p>"
+        },
+        {
+          "heading": "Is concrete leveling less expensive than replacing the slab?",
+          "body_html_or_markdown": "<p>In many cases, leveling costs less than full slab removal and replacement, since it reuses the existing concrete rather than requiring demolition, disposal, forming, and a new pour. That said, actual cost comparisons vary by contractor, project scope, and site conditions — a quote from a local pro is the most reliable way to compare.</p>"
+        },
+        {
+          "heading": "Will concrete leveling affect my landscaping or driveway access?",
+          "body_html_or_markdown": "<p>Most leveling methods involve small drilled holes and don't require large-scale excavation, so impact on landscaping is typically minimal compared to full replacement. Access needs (e.g., temporarily blocking a driveway) vary by contractor and project — ask about this when you get your quote.</p>"
+        },
+        {
+          "heading": "Do I need to be home when the contractor comes out?",
+          "body_html_or_markdown": "<p>This depends on the contractor's process and whether it's an initial assessment or the actual leveling work. Many contractors can provide an initial estimate without you being present, but policies vary — the contractor who contacts you can confirm what's needed.</p>"
+        },
+        {
+          "heading": "How do I verify a contractor is licensed and insured?",
+          "body_html_or_markdown": "<p>Always ask any contractor directly for proof of their business license, insurance, and any relevant certifications before hiring them, and verify this information independently if possible (for example, through Nebraska or Iowa state licensing resources, if applicable in your area). Omaha Concrete Lift does not verify, certify, or guarantee the licensing or insurance status of contractors in its network — see our <a href=\"/referral-disclosure\">referral disclosure</a>.</p>"
+        }
+      ],
+      "cta_text": "Still have questions specific to your project? A local contractor can answer them directly.",
+      "cta_button_label": "Ask a Local Contractor"
+    },
+    "about": {
+      "h1": "About Omaha Concrete Lift",
+      "hero_subhead": "We're honest about what we are: an independent referral website, not a concrete contractor.",
+      "body_sections": [
+        {
+          "heading": "What Omaha Concrete Lift Is",
+          "body_html_or_markdown": "<p>Omaha Concrete Lift is an independent marketing and lead-matching website built to help homeowners in the Omaha metro find local concrete leveling contractors more easily. We built this site because searching for \"concrete leveling near me\" often means digging through directories, cold-calling companies that don't service your area, or waiting days for a callback. We wanted a faster, simpler front door.</p>"
+        },
+        {
+          "heading": "What Omaha Concrete Lift Is Not",
+          "body_html_or_markdown": "<ul><li>We are <strong>not</strong> a concrete contractor. We do not perform mudjacking, polyjacking, or any concrete leveling work ourselves.</li><li>We do <strong>not</strong> hold, and do not claim to hold, any contractor license. Any licensing referenced anywhere applies to the independent contractors we may refer you to, not to Omaha Concrete Lift.</li><li>We do <strong>not</strong> have our own customer reviews, ratings, or testimonials to display, because we don't perform the work being reviewed. Any reviews you find for a contractor belong to that contractor, not to us.</li><li>We do <strong>not</strong> operate a single storefront or maintain a public Google Business Profile representing physical work performed, since we are a referral website, not a job-site business.</li></ul>"
+        },
+        {
+          "heading": "How Our Business Model Works",
+          "body_html_or_markdown": "<p>When you submit a quote request through our <a href=\"/contact\">contact form</a>, we share your project details with local, independent concrete leveling contractors who serve your area. Those contractors may pay us a referral fee for the introduction. This is a common model for home-service matching websites, and it doesn't cost you anything or affect the price you're quoted. Full details are in our <a href=\"/referral-disclosure\">referral disclosure</a> and our <a href=\"/how-it-works\">how it works</a> page.</p>"
+        },
+        {
+          "heading": "Your Responsibility When Hiring a Contractor",
+          "body_html_or_markdown": "<p>Because we don't perform the work, we strongly encourage every homeowner to verify a contractor's license, insurance, and reputation directly before hiring them — regardless of how you found that contractor. Ask for proof of insurance, ask about warranty terms, and get everything in writing.</p>"
+        }
+      ],
+      "cta_text": "Want to see if a local contractor can help with your project?",
+      "cta_button_label": "Get My Free Quote"
+    },
+    "contact": {
+      "h1": "Request a Free Concrete Leveling Quote",
+      "hero_subhead": "Tell us about your project. We'll route it to local contractors who can help — no cost, no obligation.",
+      "body_sections": [
+        {
+          "heading": "What Happens After You Submit This Form",
+          "body_html_or_markdown": "<p>Once you submit the form below, here's what to expect:</p><ol><li>We share your project details with local concrete leveling contractors serving your area.</li><li>One or more contractors may contact you directly by phone, text, or email to discuss your project.</li><li>A contractor may schedule an on-site visit to assess your slab and provide a firm quote.</li><li>You decide whether to move forward — you're never obligated to hire anyone through this form.</li></ol><p>By submitting, you agree to be contacted about your request. See our <a href=\"/referral-disclosure\">referral disclosure</a> and <a href=\"/privacy-policy\">privacy policy</a> for details on how your information is used and shared.</p>"
+        },
+        {
+          "heading": "Before You Submit",
+          "body_html_or_markdown": "<p>The more detail you can share about the location and symptoms (which slab, how severe, any drainage issues), the easier it is for a contractor to give you an accurate quote. Photos help too, if your form supports attachments.</p>"
+        }
+      ],
+      "cta_text": "Fill out the form below to get started — it takes about a minute.",
+      "cta_button_label": "Submit My Quote Request"
+    },
+    "privacy-policy": {
+      "h1": "Privacy Policy",
+      "hero_subhead": "How Omaha Concrete Lift collects, uses, and shares your information.",
+      "body_sections": [
+        {
+          "heading": "Privacy Policy",
+          "body_html_or_markdown": "<h2>Privacy Policy</h2>\n<p><em>Last updated: [Effective Date]</em></p>\n<p>Omaha Concrete Lift (\"we,\" \"us,\" or \"our\") operates the website OmahaConcreteLift.com (the \"Site\"). This Privacy Policy explains what information we collect when you use the Site, how we use it, who we share it with, and the choices available to you. By using the Site, you agree to the terms of this Privacy Policy.</p>\n\n<h3>1. Who We Are</h3>\n<p>Omaha Concrete Lift is an independent referral and lead-matching website. We are not a concrete leveling contractor. For questions about this Privacy Policy or to exercise your privacy rights, contact us at [Business Contact Email].</p>\n\n<h3>2. Information We Collect</h3>\n<ul>\n<li><strong>Information you provide directly:</strong> name, phone number, email address, property address or ZIP/city, service type requested, and a description of your project, submitted through our quote request form or other contact methods.</li>\n<li><strong>Automatically collected information:</strong> IP address, browser type, device type, pages visited, referring URL, and similar usage data collected via cookies, log files, and analytics tools.</li>\n<li><strong>Information from third parties:</strong> we may receive limited information from advertising or analytics partners to help us understand how visitors find and use the Site.</li>\n</ul>\n\n<h3>3. How We Use Your Information</h3>\n<ul>\n<li>To route your quote request to one or more local concrete leveling contractors who may be able to assist you.</li>\n<li>To communicate with you about your request, including by phone, text/SMS, or email.</li>\n<li>To operate, maintain, secure, and improve the Site.</li>\n<li>To analyze aggregate usage trends and marketing performance.</li>\n<li>To comply with legal obligations and enforce our <a href=\"/terms-of-service\">Terms of Service</a>.</li>\n</ul>\n\n<h3>4. How We Share Your Information</h3>\n<ul>\n<li><strong>Contractors in our network:</strong> when you submit a quote request, we share the details you provide with one or more independent, local concrete leveling contractors so they can contact you directly. This is the core purpose of the Site.</li>\n<li><strong>Service providers:</strong> we may share information with vendors who help us operate the Site (e.g., hosting, form processing, analytics, communications tools), bound by confidentiality and data protection obligations.</li>\n<li><strong>Legal and safety reasons:</strong> we may disclose information if required by law, subpoena, or legal process, or to protect the rights, property, or safety of Omaha Concrete Lift, our users, or others.</li>\n<li><strong>Business transfers:</strong> if the Site or its assets are sold, merged, or transferred, your information may be transferred as part of that transaction.</li>\n</ul>\n<p>We do not sell your personal information for money. We may receive referral fees from contractors for leads we send them, as described in our <a href=\"/referral-disclosure\">Referral Disclosure</a> — this is a compensation arrangement, not a sale of your personal data to unrelated third parties for their independent marketing use, though the contractor you're connected with will use your contact details to reach you about your project.</p>\n\n<h3>5. Cookies and Tracking Technologies</h3>\n<p>We use cookies, pixels, and similar technologies to operate the Site, remember preferences, and understand how visitors use the Site. You can control cookies through your browser settings; disabling cookies may affect Site functionality.</p>\n\n<h3>6. Data Retention</h3>\n<p>We retain quote request information for as long as reasonably necessary to fulfill the purpose of connecting you with a contractor, to comply with legal obligations, resolve disputes, and enforce our agreements, after which it is deleted or anonymized in accordance with our internal retention practices.</p>\n\n<h3>7. Your Choices and Rights</h3>\n<ul>\n<li>You may request access to, correction of, or deletion of the personal information you've submitted by contacting [Business Contact Email].</li>\n<li>You may opt out of marketing communications at any time by following unsubscribe instructions in our emails or by contacting us directly. Note that opting out of marketing does not stop communications from contractors you were already matched with regarding an active quote request.</li>\n<li>Depending on your state of residence, you may have additional rights under applicable privacy laws (such as the right to know, delete, or opt out of certain data practices). Contact us at [Business Contact Email] to exercise these rights.</li>\n</ul>\n\n<h3>8. Children's Privacy</h3>\n<p>The Site is not directed to individuals under 18, and we do not knowingly collect personal information from children.</p>\n\n<h3>9. Data Security</h3>\n<p>We use reasonable administrative, technical, and organizational measures designed to protect your information. No method of transmission or storage is completely secure, and we cannot guarantee absolute security.</p>\n\n<h3>10. Third-Party Links</h3>\n<p>The Site may link to third-party websites, including contractor websites. We are not responsible for the privacy practices of those third parties, and we encourage you to review their privacy policies separately.</p>\n\n<h3>11. Changes to This Policy</h3>\n<p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated \"Last updated\" date. Your continued use of the Site after changes are posted constitutes acceptance of the revised policy.</p>\n\n<h3>12. Contact Us</h3>\n<p>If you have questions about this Privacy Policy or how your information is handled, contact us at [Business Contact Email].</p>\n"
+        }
+      ],
+      "cta_text": "Questions about your data? Reach out any time.",
+      "cta_button_label": "Contact Us"
+    },
+    "terms-of-service": {
+      "h1": "Terms of Service",
+      "hero_subhead": "The rules governing your use of Omaha Concrete Lift and our contractor-matching service.",
+      "body_sections": [
+        {
+          "heading": "Terms of Service",
+          "body_html_or_markdown": "<h2>Terms of Service</h2>\n<p><em>Last updated: [Effective Date]</em></p>\n<p>These Terms of Service (\"Terms\") govern your access to and use of OmahaConcreteLift.com (the \"Site\"), operated by Omaha Concrete Lift (\"we,\" \"us,\" or \"our\"). By using the Site or submitting a quote request, you agree to these Terms. If you do not agree, do not use the Site.</p>\n\n<h3>1. Nature of the Service</h3>\n<p>Omaha Concrete Lift is an independent referral and lead-generation website. We connect homeowners who submit project information with independent, third-party concrete leveling contractors who may serve their area (the \"Service\"). <strong>We are not a contractor.</strong> We do not perform concrete leveling, mudjacking, polyjacking, or any related construction, repair, or leveling work. We do not hold, and do not represent that we hold, any contractor license.</p>\n\n<h3>2. No Agency or Employment Relationship</h3>\n<p>Contractors contacted through the Service are independent businesses. Nothing in these Terms or in your use of the Site creates an employment, partnership, joint venture, or agency relationship between Omaha Concrete Lift and any contractor. Contractors are not our employees, agents, or representatives, and we do not direct, supervise, or control their work.</p>\n\n<h3>3. No Guarantee of Contractor Availability, Quality, or Pricing</h3>\n<ul>\n<li>We do not guarantee that any contractor will contact you after you submit a request.</li>\n<li>We do not guarantee the availability, timeliness, quality, workmanship, pricing, or outcome of any work performed by any contractor.</li>\n<li>We do not guarantee that any contractor is licensed, bonded, or insured in your jurisdiction. Verifying a contractor's licensing, insurance, and standing is solely your responsibility.</li>\n<li>Quotes, timelines, warranties, and scopes of work are determined entirely by the contractor you engage, not by Omaha Concrete Lift.</li>\n</ul>\n\n<h3>4. Your Responsibilities</h3>\n<ul>\n<li>Provide accurate and truthful information when submitting a quote request.</li>\n<li>Independently vet, verify licensing/insurance for, and negotiate directly with any contractor before agreeing to any work.</li>\n<li>Enter into any service agreement, contract, or payment arrangement directly with the contractor — Omaha Concrete Lift is not a party to that agreement.</li>\n<li>Direct any disputes about workmanship, pricing, scheduling, warranty, or payment to the contractor who performed or was engaged to perform the work, not to Omaha Concrete Lift.</li>\n</ul>\n\n<h3>5. Referral Compensation</h3>\n<p>We may receive compensation, such as a referral or lead-generation fee, from contractors in exchange for connecting them with your request. This does not affect the price you are quoted. Full details are available in our <a href=\"/referral-disclosure\">Referral Disclosure</a>.</p>\n\n<h3>6. Intellectual Property</h3>\n<p>All content on the Site, including text, graphics, logos, and design, is owned by or licensed to Omaha Concrete Lift and is protected by applicable intellectual property laws. You may not reproduce, distribute, or create derivative works from Site content without our prior written permission, except for personal, non-commercial use.</p>\n\n<h3>7. Prohibited Uses</h3>\n<ul>\n<li>Submitting false, fraudulent, or spam requests through the quote form.</li>\n<li>Attempting to interfere with, disrupt, or gain unauthorized access to the Site or its underlying systems.</li>\n<li>Scraping, harvesting, or misusing contractor or contact information obtained through the Site.</li>\n<li>Using the Site for any unlawful purpose or in violation of any applicable law or regulation.</li>\n</ul>\n\n<h3>8. Disclaimer of Warranties</h3>\n<p>THE SITE AND SERVICE ARE PROVIDED \"AS IS\" AND \"AS AVAILABLE,\" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SITE WILL BE UNINTERRUPTED, ERROR-FREE, OR SECURE, OR THAT ANY CONTRACTOR MATCH WILL MEET YOUR EXPECTATIONS.</p>\n\n<h3>9. Limitation of Liability</h3>\n<p>TO THE FULLEST EXTENT PERMITTED BY LAW, OMAHA CONCRETE LIFT AND ITS OWNERS, OPERATORS, AND AFFILIATES SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS, DATA, OR GOODWILL, ARISING FROM YOUR USE OF THE SITE OR ANY INTERACTION WITH A CONTRACTOR OBTAINED THROUGH THE SITE, INCLUDING BUT NOT LIMITED TO DAMAGES RELATED TO WORKMANSHIP, PROPERTY DAMAGE, DELAYS, OR CONTRACT DISPUTES WITH A CONTRACTOR. OUR TOTAL LIABILITY FOR ANY CLAIM ARISING FROM THESE TERMS OR THE SITE SHALL NOT EXCEED ONE HUNDRED U.S. DOLLARS ($100).</p>\n\n<h3>10. Indemnification</h3>\n<p>You agree to indemnify and hold harmless Omaha Concrete Lift from any claims, damages, losses, or expenses (including reasonable attorneys' fees) arising from your use of the Site, your violation of these Terms, or any dispute between you and a contractor.</p>\n\n<h3>11. Third-Party Contractors</h3>\n<p>We do not warrant or guarantee the licensing, insurance, workmanship, or business practices of any contractor. Responsibility for verifying a contractor's licensing and insurance, and for any work performed, rests solely with that contractor and with you as the homeowner engaging them.</p>\n\n<h3>12. Governing Law</h3>\n<p>These Terms are governed by the laws of the State of Nebraska, without regard to its conflict-of-laws principles, unless otherwise required by applicable law.</p>\n\n<h3>13. Changes to These Terms</h3>\n<p>We may update these Terms from time to time. Changes will be posted on this page with an updated \"Last updated\" date. Continued use of the Site after changes are posted constitutes acceptance of the revised Terms.</p>\n\n<h3>14. Contact Us</h3>\n<p>Questions about these Terms can be directed to [Business Contact Email].</p>\n"
+        }
+      ],
+      "cta_text": "Questions about these terms?",
+      "cta_button_label": "Contact Us"
+    },
+    "referral-disclosure": {
+      "h1": "Referral Disclosure",
+      "hero_subhead": "We're not a contractor, and we want you to know exactly how this site works before you submit any information.",
+      "body_sections": [
+        {
+          "heading": "Referral Disclosure",
+          "body_html_or_markdown": "<h2>Referral Disclosure</h2>\n<p><em>Last updated: [Effective Date]</em></p>\n<p>This page explains, in plain language, exactly what Omaha Concrete Lift is, how we make money, and what that means for you as a homeowner.</p>\n\n<h3>We Are Not a Contractor</h3>\n<p>Omaha Concrete Lift is a marketing and referral website. We do not perform concrete leveling, mudjacking, polyjacking, or any related construction or repair work. We are not licensed as a contractor, and nothing on this Site should be interpreted as a claim that we are a licensed contractor or that we perform physical work on your property.</p>\n\n<h3>How We Make Money</h3>\n<p>When you submit a quote request through our <a href=\"/contact\">contact form</a>, we forward your project details to one or more independent, local concrete leveling contractors. Those contractors may pay Omaha Concrete Lift a referral fee, lead fee, or similar form of compensation for that introduction. This is our primary business model. It costs you nothing, and it should not change the price a contractor quotes you for the work.</p>\n\n<h3>We Do Not Guarantee the Lowest Price</h3>\n<p>We do not negotiate pricing on your behalf, and we do not guarantee that any contractor we connect you with offers the lowest available price for your project. We encourage you to request multiple quotes and compare them before making a decision.</p>\n\n<h3>We Do Not Endorse or Warrant Any Specific Contractor</h3>\n<p>Being included in our referral network is not an endorsement, certification, or guarantee of any contractor's licensing status, insurance coverage, workmanship, reliability, or business practices. We do not independently verify every credential of every contractor in our network on an ongoing basis, and we make no warranty, express or implied, about the outcome of any work performed by a contractor you are matched with.</p>\n\n<h3>We Do Not Display Our Own Reviews or Ratings</h3>\n<p>Because Omaha Concrete Lift does not perform concrete leveling work, we do not have customer reviews of our own workmanship to display, and we do not publish invented or third-party reviews as if they were ours. Any reviews of contractor work belong to the contractor, not to us.</p>\n\n<h3>Verify Before You Hire</h3>\n<p>Before agreeing to any work or payment, we strongly encourage you to:</p>\n<ul>\n<li>Ask the contractor directly for proof of their business license and liability insurance.</li>\n<li>Independently verify licensing status through the appropriate state or local licensing authority, if applicable in your jurisdiction.</li>\n<li>Get a written estimate, scope of work, and any warranty terms in writing before work begins.</li>\n<li>Confirm payment terms directly with the contractor — Omaha Concrete Lift is not involved in, and does not process, payment for contractor work.</li>\n</ul>\n\n<h3>Your Consent to Be Contacted</h3>\n<p>By submitting a quote request, you consent to being contacted by Omaha Concrete Lift and/or the contractor(s) your request is shared with, by phone, text/SMS, or email, regarding your project, as described in our <a href=\"/privacy-policy\">Privacy Policy</a> and on our <a href=\"/contact\">contact page</a>.</p>\n\n<h3>Questions</h3>\n<p>If you have questions about how our referral model works, contact us at [Business Contact Email].</p>\n"
+        }
+      ],
+      "cta_text": "Comfortable with how this works? Get your free quote.",
+      "cta_button_label": "Get My Free Quote"
+    },
+    "404": {
+      "h1": "We Couldn't Find That Page",
+      "hero_subhead": "The page you're looking for may have moved, or the link might be outdated. Let's get you back on track.",
+      "body_sections": [
+        {
+          "heading": "Try One of These Instead",
+          "body_html_or_markdown": "<ul><li><a href=\"/\">Go to the Homepage</a></li><li><a href=\"/services-concrete-lifting\">Browse Concrete Leveling Services</a></li><li><a href=\"/service-areas\">Check Our Service Areas</a></li><li><a href=\"/faq\">Read Our FAQ</a></li><li><a href=\"/contact\">Request a Free Quote</a></li></ul>"
+        }
+      ],
+      "cta_text": "Or just tell us about your concrete project and we'll take it from there.",
+      "cta_button_label": "Get My Free Quote"
+    }
+  },
+  "quote_form": {
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full Name",
+        "type": "text",
+        "required": true,
+        "validation_notes": "Min 2 characters; letters, spaces, hyphens, apostrophes only."
+      },
+      {
+        "name": "phone",
+        "label": "Phone Number",
+        "type": "tel",
+        "required": true,
+        "validation_notes": "US phone format (10 digits); format/mask as (XXX) XXX-XXXX; required since contractors primarily contact by phone/text."
+      },
+      {
+        "name": "email",
+        "label": "Email Address",
+        "type": "email",
+        "required": true,
+        "validation_notes": "Standard email regex validation; used for confirmation and contractor follow-up."
+      },
+      {
+        "name": "service_type",
+        "label": "What kind of concrete leveling do you need?",
+        "type": "select",
+        "required": true,
+        "validation_notes": "Dropdown; must select one.",
+        "options": [
+          "Concrete Lifting / Not Sure Which Type",
+          "Mudjacking",
+          "Polyjacking",
+          "Driveway Leveling",
+          "Sidewalk Leveling",
+          "Patio Leveling",
+          "Garage Slab Leveling",
+          "Other"
+        ]
+      },
+      {
+        "name": "property_location",
+        "label": "Property City/ZIP Code",
+        "type": "text",
+        "required": true,
+        "validation_notes": "Accept city name or 5-digit ZIP; used to route to contractors covering that area; validate ZIP as 5 digits if numeric input."
+      },
+      {
+        "name": "project_description",
+        "label": "Briefly describe the issue (what's sinking, how bad, any drainage concerns)",
+        "type": "textarea",
+        "required": false,
+        "validation_notes": "Max ~1000 characters; optional but strongly encouraged; helps contractors prep before contacting."
+      },
+      {
+        "name": "preferred_contact_method",
+        "label": "Preferred contact method",
+        "type": "radio",
+        "required": false,
+        "validation_notes": "Options: Phone, Text, Email; optional, defaults to 'Phone' if omitted.",
+        "options": [
+          "Phone",
+          "Text",
+          "Email"
+        ]
+      },
+      {
+        "name": "website",
+        "label": "",
+        "type": "text",
+        "required": false,
+        "validation_notes": "HONEYPOT FIELD — hidden via CSS (display:none / off-screen positioning), never shown to real users, labeled generically (e.g. 'website') to attract bots; if this field is non-empty on submit, silently reject/discard the submission without notifying the submitter it was flagged."
+      },
+      {
+        "name": "consent",
+        "label": "By checking this box and submitting this form, I agree to be contacted by Omaha Concrete Lift and/or matched local concrete leveling contractors by phone, text message (SMS), and/or email regarding my request, including via automated dialing or messaging technology. Message and data rates may apply; message frequency varies. Consent is not a condition of purchase. I have read and agree to the <a href=\"/referral-disclosure\">Referral Disclosure</a>, <a href=\"/privacy-policy\">Privacy Policy</a>, and <a href=\"/terms-of-service\">Terms of Service</a>.",
+        "type": "checkbox",
+        "required": true,
+        "validation_notes": "Must be checked to submit; store timestamp + IP + exact consent text version alongside the lead record for TCPA compliance audit trail."
+      }
+    ],
+    "submit_button_label": "Get My Free Quote",
+    "success_message": "Thanks — your request is on its way! We're routing your project details to local concrete leveling contractors who serve your area. Expect a call, text, or email soon. In the meantime, feel free to browse our <a href=\"/faq\">FAQ</a> or learn more about <a href=\"/how-it-works\">how this works</a>.",
+    "error_message": "Something went wrong submitting your request. Please check that all required fields are filled in correctly and try again. If the problem continues, you can reach us directly at [Business Contact Email]."
+  },
+  "trust_and_compliance_notes": [
+    "HOME page includes an italic referral-service notice directly under the intro paragraph, linking to /how-it-works and /referral-disclosure, so the first page every visitor lands on discloses the business model immediately — prevents any impression of impersonating a contractor.",
+    "Every SERVICE page (concrete-lifting, mudjacking, polyjacking, driveway/sidewalk/patio/garage leveling) repeats the same referral notice in its Overview section, since users may land on any service page directly from search without ever visiting Home first.",
+    "SERVICE pages describe methods, timelines, hole sizes, and costs using hedged language ('typically', 'often', 'varies by contractor') specifically to avoid stating invented statistics as fact — no specific price ranges, cure times, or warranty terms are asserted anywhere.",
+    "FAQ page cost/time questions explicitly state pricing and duration 'varies by contractor and project' rather than inventing a dollar figure or day count — protects against misleading-claims liability.",
+    "FAQ 'how do I verify a contractor is licensed and insured' answer explicitly tells the user to verify independently and links to the referral disclosure, reinforcing that Omaha Concrete Lift does not vouch for any contractor's credentials.",
+    "ABOUT page contains a dedicated 'What Omaha Concrete Lift Is Not' section explicitly denying: contractor status, contractor license, owned/displayed customer reviews or testimonials, and a Google Business Profile representing physical work — directly satisfies the anti-impersonation constraint.",
+    "HOW-IT-WORKS page contains a 'What We Don't Do' bulleted list repeating the same denials (no work performed, no license held, no guarantee of contact/pricing, no control over contractor quality/licensing/insurance) in a second, independent location for defense-in-depth.",
+    "REFERRAL-DISCLOSURE page is a standalone, linkable page (required by the task) that states: not a contractor; may receive referral fees from contractors; does not guarantee lowest price; does not endorse/warrant any contractor's work; explicitly tells users to verify licensing/insurance themselves before hiring.",
+    "REFERRAL-DISCLOSURE explicitly states 'we do not have customer reviews of our own workmanship to display, and we do not publish invented or third-party reviews as if they were ours' — directly forecloses fake-review risk.",
+    "PRIVACY-POLICY and TERMS-OF-SERVICE use the placeholder '[Business Contact Email]' everywhere a controller contact point is needed, and NEVER include an invented street address, suite number, or phone number for 'Omaha Concrete Lift' itself — avoids fabricating a business address.",
+    "TERMS-OF-SERVICE Section 1 states plainly 'We are not a contractor... We do not hold, and do not represent that we hold, any contractor license' and Section 3/11 disclaim any guarantee of contractor licensing, insurance, quality, or pricing, placing that responsibility explicitly on the contractor and the homeowner.",
+    "TERMS-OF-SERVICE Section 2 explicitly disclaims any employment/agency/partnership relationship with contractors, preventing any implication that contractors act 'on behalf of' or 'as' Omaha Concrete Lift.",
+    "CONTACT page copy sets expectations that any contractor who calls is a separate, independent business, and that quotes/timelines come from the contractor, not from Omaha Concrete Lift — reduces confusion about who the user is actually contracting with.",
+    "QUOTE FORM consent checkbox text is TCPA-style: names Omaha Concrete Lift AND matched contractors as potential callers/texters, states consent is not a condition of purchase, and links to all three legal pages (referral-disclosure, privacy-policy, terms-of-service) at the point of data collection — the single most legally load-bearing piece of copy on the site.",
+    "QUOTE FORM includes an honeypot field with instructions to keep it invisible to real users and to silently drop spam submissions — a technical anti-abuse measure, not a disclosure issue, but included per spec.",
+    "SCHEMA PLAN explicitly forbids LocalBusiness, GeneralContractor, HomeAndConstructionBusiness, AggregateRating, and Review JSON-LD types anywhere on the site, since none of those can be truthfully attested to (no single verifiable business address, no held license, no first-party reviews) — see schema_org_plan.disallowed_schema_types.",
+    "No page anywhere references a specific street address, suite, or physical office for Omaha Concrete Lift; the only addresses discussed are the general service-area cities/suburbs (Omaha, Bellevue, Papillion, etc.), which describe coverage area, not a business location.",
+    "No page anywhere invents a license number, license board name, or certification for 'Omaha Concrete Lift' itself; all licensing language is framed as 'the contractor's license,' consistently pointing to the third-party contractor, not to this site.",
+    "No page anywhere includes a star rating, review count, testimonial quote, or 'as seen on' trust badge that would imply third-party validation that hasn't actually been obtained — SEO/schema plan reinforces this by banning Review/AggregateRating schema.",
+    "FOOTER (sitewide, implied by internal_linking_suggestions in the SEO section) links to about, how-it-works, referral-disclosure, privacy-policy, and terms-of-service on every single page, ensuring the disclosure is never more than one click away regardless of entry page — this is the structural backbone of the transparency requirement."
+  ],
+  "schema_org_plan": {
+    "safe_schema_types_by_page": {
+      "home": [
+        "WebSite",
+        "Organization"
+      ],
+      "services-concrete-lifting": [
+        "BreadcrumbList",
+        "Service (generic, describing the METHOD category, not attached to Organization as a LocalBusiness)"
+      ],
+      "services-mudjacking": [
+        "BreadcrumbList",
+        "Service (generic method description)"
+      ],
+      "services-polyjacking": [
+        "BreadcrumbList",
+        "Service (generic method description)"
+      ],
+      "services-driveway-leveling": [
+        "BreadcrumbList",
+        "Service (generic method description)"
+      ],
+      "services-sidewalk-leveling": [
+        "BreadcrumbList",
+        "Service (generic method description)"
+      ],
+      "services-patio-leveling": [
+        "BreadcrumbList",
+        "Service (generic method description)"
+      ],
+      "services-garage-slab-leveling": [
+        "BreadcrumbList",
+        "Service (generic method description)"
+      ],
+      "service-areas": [
+        "BreadcrumbList",
+        "ItemList (list of areasServed as plain city names, NOT nested LocalBusiness entries)"
+      ],
+      "how-it-works": [
+        "BreadcrumbList"
+      ],
+      "faq": [
+        "FAQPage",
+        "BreadcrumbList"
+      ],
+      "about": [
+        "BreadcrumbList",
+        "AboutPage"
+      ],
+      "contact": [
+        "BreadcrumbList",
+        "ContactPage"
+      ],
+      "privacy-policy": [
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "terms-of-service": [
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "referral-disclosure": [
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "404": []
+    },
+    "disallowed_schema_types": [
+      "LocalBusiness (and all subtypes, e.g. GeneralContractor, HomeAndConstructionBusiness) — would falsely represent Omaha Concrete Lift as a physical contracting business with a real address/service radius/hours, which it is not.",
+      "AggregateRating — there is no aggregate rating of Omaha Concrete Lift's own work to report, since it performs no work.",
+      "Review — Omaha Concrete Lift has no first-party customer reviews to mark up, and must never mark up invented or scraped third-party reviews as its own.",
+      "Product / Offer with fixed price — the site does not sell a fixed-price product or service; contractor pricing is determined independently by each contractor, so no schema should imply a set price from Omaha Concrete Lift.",
+      "Person (as a claimed founder/technician persona with fabricated credentials) — no fabricated individual profiles should be marked up as licensed tradespeople."
+    ],
+    "notes": [
+      "Use 'Organization' (not 'LocalBusiness') for Omaha Concrete Lift on the home page — this correctly represents it as a company/website entity without implying a physical service-area business with its own address or hours.",
+      "'Service' schema on service pages (if used) should describe the leveling METHOD generically (e.g. 'serviceType: Concrete Leveling') and should reference 'provider' loosely or omit provider entirely rather than declaring Omaha Concrete Lift as the direct 'provider' performing physical work; alternatively, omit Service schema entirely and rely on WebPage + BreadcrumbList to stay conservative.",
+      "'ItemList' on service-areas should just be a list of place names (areasServed as strings/Place types), not a list of LocalBusiness locations, since Omaha Concrete Lift has no branch offices in each suburb.",
+      "FAQPage schema should mirror the FAQ page copy exactly (search engines penalize mismatched schema/visible-content) and should not include contractor-specific claims.",
+      "BreadcrumbList is safe on every content page and helps both UX and rich-result eligibility without making any factual business claims."
+    ],
+    "example_jsonld": {
+      "WebSite": {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Omaha Concrete Lift",
+        "url": "https://omahaconcretelift.com",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://omahaconcretelift.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      "Organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Omaha Concrete Lift",
+        "url": "https://omahaconcretelift.com",
+        "description": "Omaha Concrete Lift is an independent referral and lead-matching service that connects homeowners in the Omaha, Nebraska metro area with local, independent concrete leveling contractors. Omaha Concrete Lift is not a contractor and does not perform concrete leveling work.",
+        "email": "[Business Contact Email]",
+        "sameAs": []
+      },
+      "FAQPage": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why does concrete sink or settle in the first place?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Concrete slabs themselves don't usually deteriorate — the soil underneath them does. Common causes include soil compaction over time, erosion from water runoff, poor original sub-base preparation, freeze-thaw cycles, and organic material that decomposes under the slab and leaves a void. Once support underneath the slab is lost, gravity and traffic load cause it to settle unevenly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What's the difference between mudjacking and polyjacking?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mudjacking uses a cement-based slurry pumped beneath the slab to fill voids and lift it, typically through larger drilled holes. Polyjacking uses an expanding polyurethane foam injected through smaller holes. Foam is generally lighter and more water-resistant, while slurry is a heavier, longer-established material. Cost, hole size, cure time, and suitability for your specific project varies by contractor and by soil/site conditions — a local contractor can advise which fits your project best."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does concrete leveling cost?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Cost varies by contractor, region, slab size, method (mudjacking vs. polyjacking), and how much lifting is needed. There isn't a single reliable number we can quote here — pricing varies by contractor and project, which is exactly why getting a few quotes from local pros is useful."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does a concrete leveling job typically take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Many residential leveling jobs (a driveway panel, a sidewalk slab, a small patio) can be completed in a matter of hours to a single day, but this varies by contractor, method, equipment, and the size/scope of the project. A contractor can give you a project-specific estimate after assessing the site."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is concrete leveling a permanent fix?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Concrete leveling addresses the existing void and settling at the time of the repair, but if the underlying cause (drainage, soil erosion, an ongoing leak, etc.) isn't resolved, settling can recur over time. Ask your contractor what, if anything, they recommend to address the root cause, and what warranty (if any) they offer — warranty terms vary by contractor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can concrete leveling fix a cracked slab, or do I need full replacement?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Leveling raises a slab back toward its original position; it doesn't repair existing cracks, though many contractors can seal or patch cracks as part of the job. Whether leveling makes sense versus full replacement depends on the extent of cracking, slab age, and condition — this varies by contractor and by inspection findings."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is concrete leveling less expensive than replacing the slab?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In many cases, leveling costs less than full slab removal and replacement, since it reuses the existing concrete rather than requiring demolition, disposal, forming, and a new pour. That said, actual cost comparisons vary by contractor, project scope, and site conditions — a quote from a local pro is the most reliable way to compare."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will concrete leveling affect my landscaping or driveway access?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most leveling methods involve small drilled holes and don't require large-scale excavation, so impact on landscaping is typically minimal compared to full replacement. Access needs (e.g., temporarily blocking a driveway) vary by contractor and project — ask about this when you get your quote."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need to be home when the contractor comes out?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "This depends on the contractor's process and whether it's an initial assessment or the actual leveling work. Many contractors can provide an initial estimate without you being present, but policies vary — the contractor who contacts you can confirm what's needed."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I verify a contractor is licensed and insured?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Always ask any contractor directly for proof of their business license, insurance, and any relevant certifications before hiring them, and verify this information independently if possible (for example, through Nebraska or Iowa state licensing resources, if applicable in your area). Omaha Concrete Lift does not verify, certify, or guarantee the licensing or insurance status of contractors in its network — see our referral disclosure page."
+            }
+          }
+        ]
+      },
+      "BreadcrumbList_example": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://omahaconcretelift.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://omahaconcretelift.com/services-concrete-lifting"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Mudjacking",
+            "item": "https://omahaconcretelift.com/services-mudjacking"
+          }
+        ]
+      }
+    }
+  }
+}

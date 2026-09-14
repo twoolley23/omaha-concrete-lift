@@ -1,0 +1,17 @@
+{
+  "name": "omaha-concrete-lift",
+  "version": "1.0.0",
+  "description": "OmahaConcreteLift.com \u2014 independent referral and lead-generation website connecting Omaha-area homeowners with local concrete leveling contractors.",
+  "private": true,
+  "main": "server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.21.2"
+  }
+}

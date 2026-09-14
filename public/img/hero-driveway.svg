@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="420" viewBox="0 0 560 420" role="img" aria-label="Stock illustration of a cracked concrete driveway slab">
+  <rect width="560" height="420" fill="#E7ECF0"/>
+  <rect x="40" y="180" width="480" height="200" fill="#C8CFD6" stroke="#9AA6AF" stroke-width="3"/>
+  <line x1="40" y1="280" x2="520" y2="280" stroke="#9AA6AF" stroke-width="2"/>
+  <line x1="180" y1="180" x2="180" y2="380" stroke="#9AA6AF" stroke-width="2"/>
+  <line x1="360" y1="180" x2="360" y2="380" stroke="#9AA6AF" stroke-width="2"/>
+  <path d="M120 180 L150 230 L110 260 L160 300" stroke="#5B6570" stroke-width="3" fill="none"/>
+  <path d="M300 200 L330 240 L290 270" stroke="#5B6570" stroke-width="3" fill="none"/>
+  <rect x="0" y="380" width="560" height="40" fill="#7C8792"/>
+  <circle cx="500" cy="70" r="40" fill="#FFC107" opacity="0.85"/>
+  <rect x="0" y="0" width="560" height="180" fill="#DCE3E8"/>
+</svg>
