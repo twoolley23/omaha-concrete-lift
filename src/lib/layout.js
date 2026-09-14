@@ -11,8 +11,8 @@
  */
 
 const SITE_URL = 'https://omahaconcretelift.com';
-const PHONE_DISPLAY = '(402) 555-0148';
-const PHONE_TEL = '+14025550148';
+const PHONE_DISPLAY = '(402) 409-4222';
+const PHONE_TEL = '+14024094222';
 const CONTACT_EMAIL = 'hello@omahaconcretelift.com';
 
 const NAV_LINKS = [

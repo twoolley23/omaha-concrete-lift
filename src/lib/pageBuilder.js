@@ -1,6 +1,6 @@
 'use strict';
 
-const { renderPage, escapeHtml, SITE_URL } = require('./layout');
+const { renderPage, escapeHtml, SITE_URL, PHONE_TEL, PHONE_DISPLAY } = require('./layout');
 const { fixInternalLinks } = require('./links');
 const { renderQuoteForm } = require('./quoteForm');
 const schema = require('./schema');
@@ -27,7 +27,10 @@ function renderHero({ h1, subhead, ctaButtonLabel, showTrustBadges = true, heroI
       <div class="hero-content">
         <h1 class="hero-title">${escapeHtml(h1)}</h1>
         <p class="hero-subhead">${escapeHtml(subhead)}</p>
-        <a href="#quote-form" class="btn btn-cta btn-lg">${escapeHtml(ctaButtonLabel)}</a>
+        <div class="hero-cta-row">
+          <a href="#quote-form" class="btn btn-cta btn-lg">${escapeHtml(ctaButtonLabel)}</a>
+          <a href="tel:${PHONE_TEL}" class="btn btn-outline btn-lg hero-call-btn" aria-label="Call Omaha Concrete Lift at ${escapeHtml(PHONE_DISPLAY)}">Call ${escapeHtml(PHONE_DISPLAY)}</a>
+        </div>
         ${badges}
       </div>
       <div class="hero-media">
@@ -82,7 +85,10 @@ function renderCtaBand({ ctaText, ctaButtonLabel }) {
   <section class="cta-band">
     <div class="container cta-band-inner">
       <p class="cta-band-text">${escapeHtml(ctaText)}</p>
-      <a href="#quote-form" class="btn btn-cta btn-lg">${escapeHtml(ctaButtonLabel)}</a>
+      <div class="cta-band-actions">
+        <a href="#quote-form" class="btn btn-cta btn-lg">${escapeHtml(ctaButtonLabel)}</a>
+        <a href="tel:${PHONE_TEL}" class="btn btn-outline-light btn-lg" aria-label="Call Omaha Concrete Lift at ${escapeHtml(PHONE_DISPLAY)}">Call ${escapeHtml(PHONE_DISPLAY)}</a>
+      </div>
     </div>
   </section>`;
 }

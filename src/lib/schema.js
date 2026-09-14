@@ -1,10 +1,12 @@
 'use strict';
 
-const { SITE_URL } = require('./layout');
+const { SITE_URL, PHONE_TEL, CONTACT_EMAIL } = require('./layout');
 
 /**
  * JSON-LD schema builders.
  * NEVER emit LocalBusiness, GeneralContractor, AggregateRating, or Review here.
+ * telephone/contactPoint fields are safe here (Organization/ContactPage, not
+ * LocalBusiness) and use the site's real tracking number -- no street address.
  */
 
 function websiteSchema() {
@@ -29,7 +31,15 @@ function organizationSchema() {
     url: SITE_URL,
     description:
       'Omaha Concrete Lift is an independent referral and lead-matching service that connects homeowners in the Omaha, Nebraska metro area with local, independent concrete leveling contractors. Omaha Concrete Lift is not a contractor and does not perform concrete leveling work.',
-    email: 'hello@omahaconcretelift.com',
+    email: CONTACT_EMAIL,
+    telephone: PHONE_TEL,
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: PHONE_TEL,
+      contactType: 'customer service',
+      areaServed: 'US-NE',
+      availableLanguage: ['English']
+    },
     sameAs: []
   };
 }
@@ -96,7 +106,13 @@ function contactPageSchema({ name, description, urlPath }) {
     '@type': 'ContactPage',
     name,
     description,
-    url: `${SITE_URL}${urlPath === '/' ? '' : urlPath}`
+    url: `${SITE_URL}${urlPath === '/' ? '' : urlPath}`,
+    mainEntity: {
+      '@type': 'Organization',
+      name: 'Omaha Concrete Lift',
+      telephone: PHONE_TEL,
+      email: CONTACT_EMAIL
+    }
   };
 }
 

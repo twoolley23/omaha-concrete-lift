@@ -270,6 +270,20 @@ button, a, input, select, textarea { font-family: inherit; }
 .btn-cta:hover, .btn-cta:focus-visible { background: var(--color-accent-hover); color: var(--color-accent-contrast); }
 .btn-lg { padding: var(--space-4) var(--space-8); font-size: var(--fs-base); }
 
+.btn-outline {
+  background: transparent;
+  color: var(--color-primary-900);
+  border: 2px solid var(--color-primary-900);
+}
+.btn-outline:hover, .btn-outline:focus-visible { background: var(--color-primary-900); color: #fff; }
+
+.btn-outline-light {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.btn-outline-light:hover, .btn-outline-light:focus-visible { background: #fff; color: var(--color-primary-900); }
+
 /* -----------------------------------------------------------------------
    7. HERO
 ----------------------------------------------------------------------- */
@@ -285,6 +299,7 @@ button, a, input, select, textarea { font-family: inherit; }
 .hero-content { max-width: 640px; }
 .hero-title { margin-bottom: var(--space-4); }
 .hero-subhead { font-size: var(--fs-lg); color: var(--color-text-muted); margin-bottom: var(--space-6); }
+.hero-cta-row { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-bottom: var(--space-2); }
 .hero-media { display: none; }
 .hero-media img { border-radius: var(--radius-lg); box-shadow: var(--shadow-md); }
 
@@ -366,6 +381,7 @@ button, a, input, select, textarea { font-family: inherit; }
   text-align: center;
 }
 .cta-band-text { font-size: var(--fs-lg); max-width: 640px; margin: 0; }
+.cta-band-actions { display: flex; flex-wrap: wrap; gap: var(--space-3); }
 @media (min-width: 768px) {
   .cta-band-inner { flex-direction: row; justify-content: space-between; text-align: left; }
 }

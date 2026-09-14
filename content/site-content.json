@@ -451,6 +451,10 @@
       "hero_subhead": "Tell us about your project. We'll route it to local contractors who can help — no cost, no obligation.",
       "body_sections": [
         {
+          "heading": "Prefer to Call?",
+          "body_html_or_markdown": "<p>You can also reach us by phone at <a href=\"tel:+14024094222\">(402) 409-4222</a>. Calling this number connects you the same way the form does — we (or a matched local contractor) will help route your concrete leveling project, free and with no obligation.</p>"
+        },
+        {
           "heading": "What Happens After You Submit This Form",
           "body_html_or_markdown": "<p>Once you submit the form below, here's what to expect:</p><ol><li>We share your project details with local concrete leveling contractors serving your area.</li><li>One or more contractors may contact you directly by phone, text, or email to discuss your project.</li><li>A contractor may schedule an on-site visit to assess your slab and provide a firm quote.</li><li>You decide whether to move forward — you're never obligated to hire anyone through this form.</li></ol><p>By submitting, you agree to be contacted about your request. See our <a href=\"/referral-disclosure\">referral disclosure</a> and <a href=\"/privacy-policy\">privacy policy</a> for details on how your information is used and shared.</p>"
         },
