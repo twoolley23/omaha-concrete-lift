@@ -2,6 +2,9 @@
 
 FROM node:20-alpine
 
+# curl is required for Coolify's container healthcheck (GET / against localhost)
+RUN apk add --no-cache curl
+
 WORKDIR /app
 
 # Install dependencies first (better layer caching)
