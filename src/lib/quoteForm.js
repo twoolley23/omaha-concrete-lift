@@ -13,21 +13,17 @@ const SERVICE_OPTIONS = [
   'Other'
 ];
 
-const CONSENT_HTML =
-  'By checking this box and submitting this form, I agree to be contacted by Omaha Concrete Lift and/or matched local concrete leveling contractors by phone, text message (SMS), and/or email regarding my request, including via automated dialing or messaging technology. Message and data rates may apply; message frequency varies. Consent is not a condition of purchase. I have read and agree to the <a href="/referral-disclosure">Referral Disclosure</a>, <a href="/privacy">Privacy Policy</a>, and <a href="/terms">Terms of Service</a>.';
+const CONSENT_TEXT_VERSION = 'v2-2026-09-14';
 
-const CONSENT_TEXT_VERSION = 'v1-2026-09-14';
+const CONSENT_MARKETING_TEXT =
+  'I agree to receive marketing text messages from Omaha Concrete Lift about concrete-leveling services, promotions, and related offers at the number provided. Message frequency varies. Msg & data rates may apply. Reply HELP for help and STOP to opt out. Consent is not a condition of purchasing any service, submitting a quote request, or doing business with Omaha Concrete Lift. See our <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms & Conditions</a>.';
+
+const CONSENT_PROJECT_UPDATES_TEXT =
+  'I agree to receive automated text messages about my concrete-leveling quote request, including questions about my project, contractor-match updates, appointment coordination, quote-status updates, and related service-request information at the number provided. Message frequency varies. Msg & data rates may apply. Reply HELP for help and STOP to opt out. Consent is not a condition of purchasing any service, submitting a quote request, or doing business with Omaha Concrete Lift. See our <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms & Conditions</a>.';
 
 const SUCCESS_MESSAGE_HTML =
   "Thanks — your request is on its way! We're routing your project details to local concrete leveling contractors who serve your area. Expect a call, text, or email soon. In the meantime, feel free to browse our <a href=\"/faq\">FAQ</a> or learn more about <a href=\"/how-it-works\">how this works</a>.";
 
-/**
- * Renders the quote form.
- * @param {Object} opts
- * @param {'full'|'condensed'} opts.variant
- * @param {string} [opts.preselectService] - option label to preselect
- * @param {string} [opts.idPrefix] - unique id prefix so multiple forms can exist per page
- */
 function renderQuoteForm({ variant = 'full', preselectService = '', idPrefix = 'quote' } = {}) {
   const isFull = variant === 'full';
   const options = SERVICE_OPTIONS.map((opt) => {
@@ -36,87 +32,16 @@ function renderQuoteForm({ variant = 'full', preselectService = '', idPrefix = '
   }).join('');
 
   const descriptionField = isFull
-    ? `
-      <div class="form-field">
-        <label for="${idPrefix}-description">Briefly describe the issue (what's sinking, how bad, any drainage concerns)</label>
-        <textarea id="${idPrefix}-description" name="description" rows="4" maxlength="1000" aria-describedby="${idPrefix}-description-error"></textarea>
-        <p class="field-error" id="${idPrefix}-description-error" role="alert" hidden></p>
-      </div>`
+    ? `\n      <div class="form-field">\n        <label for="${idPrefix}-description">Briefly describe the issue (what's sinking, how bad, any drainage concerns)</label>\n        <textarea id="${idPrefix}-description" name="description" rows="4" maxlength="1000" aria-describedby="${idPrefix}-description-error"></textarea>\n        <p class="field-error" id="${idPrefix}-description-error" role="alert" hidden></p>\n      </div>`
     : '';
 
   const contactMethodField = isFull
-    ? `
-      <fieldset class="form-field form-fieldset">
-        <legend>Preferred contact method</legend>
-        <div class="radio-group">
-          <label class="radio-label"><input type="radio" name="preferred_contact_method" value="Phone" checked> Phone</label>
-          <label class="radio-label"><input type="radio" name="preferred_contact_method" value="Text"> Text</label>
-          <label class="radio-label"><input type="radio" name="preferred_contact_method" value="Email"> Email</label>
-        </div>
-      </fieldset>`
+    ? `\n      <fieldset class="form-field form-fieldset">\n        <legend>Preferred contact method</legend>\n        <div class="radio-group">\n          <label class="radio-label"><input type="radio" name="preferred_contact_method" value="Phone" checked> Phone</label>\n          <label class="radio-label"><input type="radio" name="preferred_contact_method" value="Text"> Text</label>\n          <label class="radio-label"><input type="radio" name="preferred_contact_method" value="Email"> Email</label>\n        </div>\n      </fieldset>`
     : '';
 
-  return `
-  <form class="quote-form ${isFull ? 'quote-form-full' : 'quote-form-condensed'}" id="${idPrefix}-form" novalidate autocomplete="on">
-    <div class="form-field">
-      <label for="${idPrefix}-name">Full Name</label>
-      <input type="text" id="${idPrefix}-name" name="name" required minlength="2" autocomplete="name"
-        aria-describedby="${idPrefix}-name-error">
-      <p class="field-error" id="${idPrefix}-name-error" role="alert" hidden></p>
-    </div>
+  const smsConsentsHtml = `\n    <div class="form-field-consent-row form-field-sms-consents">\n      <span class="consent-section-label">SMS Consent (Optional)</span>\n      <label class="checkbox-label" for="${idPrefix}-marketing-consent">\n        <input type="checkbox" id="${idPrefix}-marketing-consent" name="marketing_sms_consent" value="true">\n        <span class="consent-text">A: <strong>Optional — Marketing texts from Omaha Concrete Lift.</strong> ${CONSENT_MARKETING_TEXT}</span>\n      </label>\n      <label class="checkbox-label" for="${idPrefix}-project-consent">\n        <input type="checkbox" id="${idPrefix}-project-consent" name="project_update_sms_consent" value="true">\n        <span class="consent-text">B: <strong>Optional — Quote and project updates from Omaha Concrete Lift.</strong> ${CONSENT_PROJECT_UPDATES_TEXT}</span>\n      </label>\n      <p class="consent-disclosure-note">\n        SMS consent is optional and not a condition of submitting this form.\n        By submitting, you authorize Omaha Concrete Lift to share your project and contact information with a matched local concrete-leveling provider solely to respond to your request.\n        <a href="/privacy">Privacy Policy</a> &middot; <a href="/terms">Terms &amp; Conditions</a>\n      </p>\n    </div>`;
 
-    <div class="form-field">
-      <label for="${idPrefix}-phone">Phone Number</label>
-      <input type="tel" id="${idPrefix}-phone" name="phone" required autocomplete="tel"
-        placeholder="(402) 555-0148" aria-describedby="${idPrefix}-phone-error">
-      <p class="field-error" id="${idPrefix}-phone-error" role="alert" hidden></p>
-    </div>
-
-    <div class="form-field">
-      <label for="${idPrefix}-email">Email Address</label>
-      <input type="email" id="${idPrefix}-email" name="email" required autocomplete="email"
-        aria-describedby="${idPrefix}-email-error">
-      <p class="field-error" id="${idPrefix}-email-error" role="alert" hidden></p>
-    </div>
-
-    <div class="form-field">
-      <label for="${idPrefix}-service_type">What kind of concrete leveling do you need?</label>
-      <select id="${idPrefix}-service_type" name="service_type" required aria-describedby="${idPrefix}-service_type-error">
-        <option value="">Select one&hellip;</option>
-        ${options}
-      </select>
-      <p class="field-error" id="${idPrefix}-service_type-error" role="alert" hidden></p>
-    </div>
-
-    <div class="form-field">
-      <label for="${idPrefix}-zip_or_city">Property City/ZIP Code</label>
-      <input type="text" id="${idPrefix}-zip_or_city" name="zip_or_city" required autocomplete="postal-code"
-        placeholder="e.g. Omaha or 68102" aria-describedby="${idPrefix}-zip_or_city-error">
-      <p class="field-error" id="${idPrefix}-zip_or_city-error" role="alert" hidden></p>
-    </div>
-    ${descriptionField}
-    ${contactMethodField}
-
-    <!-- Honeypot field: genuinely hidden from sighted users and screen readers,
-         not just display:none, to better trap automated form-fillers. -->
-    <div class="form-field honeypot-field" aria-hidden="true">
-      <label for="${idPrefix}-website">Website</label>
-      <input type="text" id="${idPrefix}-website" name="website" tabindex="-1" autocomplete="off">
-    </div>
-
-    <div class="form-field form-field-consent">
-      <label class="checkbox-label" for="${idPrefix}-consent">
-        <input type="checkbox" id="${idPrefix}-consent" name="consent" required aria-describedby="${idPrefix}-consent-error">
-        <span class="consent-text">${CONSENT_HTML}</span>
-      </label>
-      <p class="field-error" id="${idPrefix}-consent-error" role="alert" hidden></p>
-      <input type="hidden" name="consent_text_version" value="${CONSENT_TEXT_VERSION}">
-    </div>
-
-    <div class="form-status" id="${idPrefix}-status" role="alert" aria-live="polite"></div>
-
-    <button type="submit" class="btn btn-cta btn-submit">Get My Free Quote</button>
-  </form>`;
+  return `\n  <form class="quote-form ${isFull ? 'quote-form-full' : 'quote-form-condensed'}" id="${idPrefix}-form" novalidate autocomplete="on">\n    <div class="form-field">\n      <label for="${idPrefix}-name">Full Name</label>\n      <input type="text" id="${idPrefix}-name" name="name" required minlength="2" autocomplete="name"\n        aria-describedby="${idPrefix}-name-error">\n      <p class="field-error" id="${idPrefix}-name-error" role="alert" hidden></p>\n    </div>\n\n    <div class="form-field">\n      <label for="${idPrefix}-phone">Phone Number</label>\n      <input type="tel" id="${idPrefix}-phone" name="phone" required autocomplete="tel"\n        placeholder="(402) 555-0148" aria-describedby="${idPrefix}-phone-error">\n      <p class="field-error" id="${idPrefix}-phone-error" role="alert" hidden></p>\n    </div>\n\n    <div class="form-field">\n      <label for="${idPrefix}-email">Email Address</label>\n      <input type="email" id="${idPrefix}-email" name="email" required autocomplete="email"\n        aria-describedby="${idPrefix}-email-error">\n      <p class="field-error" id="${idPrefix}-email-error" role="alert" hidden></p>\n    </div>\n\n    <div class="form-field">\n      <label for="${idPrefix}-service_type">What kind of concrete leveling do you need?</label>\n      <select id="${idPrefix}-service_type" name="service_type" required aria-describedby="${idPrefix}-service_type-error">\n        <option value="">Select one&hellip;</option>\n        ${options}\n      </select>\n      <p class="field-error" id="${idPrefix}-service_type-error" role="alert" hidden></p>\n    </div>\n\n    <div class="form-field">\n      <label for="${idPrefix}-zip_or_city">Property City/ZIP Code</label>\n      <input type="text" id="${idPrefix}-zip_or_city" name="zip_or_city" required autocomplete="postal-code"\n        placeholder="e.g. Omaha or 68102" aria-describedby="${idPrefix}-zip_or_city-error">\n      <p class="field-error" id="${idPrefix}-zip_or_city-error" role="alert" hidden></p>\n    </div>\n    ${descriptionField}\n    ${contactMethodField}\n\n    <div class="form-field honeypot-field" aria-hidden="true">\n      <label for="${idPrefix}-website">Website</label>\n      <input type="text" id="${idPrefix}-website" name="website" tabindex="-1" autocomplete="off">\n    </div>\n\n    ${smsConsentsHtml}\n\n    <input type="hidden" name="consent_version" value="${CONSENT_TEXT_VERSION}">\n\n    <div class="form-status" id="${idPrefix}-status" role="alert" aria-live="polite"></div>\n\n    <button type="submit" class="btn btn-cta btn-submit">Get My Free Quote</button>\n  </form>`;
 }
 
 module.exports = { renderQuoteForm, SERVICE_OPTIONS, CONSENT_TEXT_VERSION, SUCCESS_MESSAGE_HTML };
