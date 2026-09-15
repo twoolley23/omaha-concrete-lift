@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const express = require('express');
 const path = require('path');
@@ -14,7 +14,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.disable('x-powered-by');
-app.set('trust proxy', true); // Coolify/typical reverse proxy sits in front of this app
+app.set('trust proxy', true);
 
 app.use(express.json({ limit: '100kb' }));
 app.use(express.urlencoded({ extended: true, limit: '100kb' }));
@@ -22,18 +22,11 @@ app.use('/css', express.static(path.join(__dirname, 'public', 'css')));
 app.use('/js', express.static(path.join(__dirname, 'public', 'js')));
 app.use('/img', express.static(path.join(__dirname, 'public', 'img')));
 
-// ---------------------------------------------------------------------------
-// Page routes
-// ---------------------------------------------------------------------------
-
 app.get('/', (req, res) => {
   const jsonLd = [schema.websiteSchema(), schema.organizationSchema()];
   const html = renderContentPage({
-    pageKey: 'home',
-    urlPath: '/',
-    jsonLd,
-    embedForm: 'full',
-    showServiceGrid: true
+    pageKey: 'home', urlPath: '/', jsonLd,
+    embedForm: 'full', showServiceGrid: true, showStatsBand: true
   });
   res.type('html').send(html);
 });
@@ -57,11 +50,8 @@ for (const svc of SERVICE_ROUTES) {
       ])
     ];
     const html = renderContentPage({
-      pageKey: svc.pageKey,
-      urlPath: svc.path,
-      jsonLd,
-      embedForm: 'condensed',
-      preselectService: svc.preselect
+      pageKey: svc.pageKey, urlPath: svc.path, jsonLd,
+      embedForm: 'condensed', preselectService: svc.preselect
     });
     res.type('html').send(html);
   });
@@ -151,10 +141,6 @@ for (const legal of LEGAL_ROUTES) {
   });
 }
 
-// ---------------------------------------------------------------------------
-// sitemap.xml / robots.txt
-// ---------------------------------------------------------------------------
-
 app.get('/sitemap.xml', (req, res) => {
   const today = new Date().toISOString().slice(0, 10);
   const urls = [
@@ -175,38 +161,13 @@ app.get('/sitemap.xml', (req, res) => {
     { path: '/terms', changefreq: 'yearly', priority: '0.3' },
     { path: '/referral-disclosure', changefreq: 'yearly', priority: '0.4' }
   ];
-
-  const body = urls
-    .map(
-      (u) => `  <url>
-    <loc>${SITE_URL}${u.path === '/' ? '' : u.path}</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>${u.changefreq}</changefreq>
-    <priority>${u.priority}</priority>
-  </url>`
-    )
-    .join('\n');
-
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${body}
-</urlset>`;
-
-  res.type('application/xml').send(xml);
+  const body = urls.map((u) => `  <url>\n    <loc>${SITE_URL}${u.path === '/' ? '' : u.path}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${u.changefreq}</changefreq>\n    <priority>${u.priority}</priority>\n  </url>`).join('\n');
+  res.type('application/xml').send(`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>`);
 });
 
 app.get('/robots.txt', (req, res) => {
-  const body = `User-agent: *
-Allow: /
-
-Sitemap: ${SITE_URL}/sitemap.xml
-`;
-  res.type('text/plain').send(body);
+  res.type('text/plain').send(`User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`);
 });
-
-// ---------------------------------------------------------------------------
-// /api/quote
-// ---------------------------------------------------------------------------
 
 const quoteRateLimiter = createRateLimiter({ windowMs: 60 * 1000, max: 5 });
 
@@ -221,12 +182,9 @@ function isValidPhone(phone) {
 
 app.post('/api/quote', quoteRateLimiter, (req, res) => {
   const body = req.body || {};
-
-  // Honeypot check FIRST -- silently succeed, store nothing, no hint given.
   if (body.website && String(body.website).trim() !== '') {
     return res.status(200).json({ ok: true });
   }
-
   const name = (body.name || '').trim();
   const phone = (body.phone || '').trim();
   const email = (body.email || '').trim();
@@ -234,95 +192,30 @@ app.post('/api/quote', quoteRateLimiter, (req, res) => {
   const zipOrCity = (body.zip_or_city || '').trim();
   const description = (body.description || '').trim();
   const preferredContactMethod = (body.preferred_contact_method || 'Phone').trim();
-  const consent = body.consent === true || body.consent === 'true' || body.consent === 'on';
-
-  if (!name || name.length < 2) {
-    return res.status(400).json({ ok: false, error: 'Please enter your full name.' });
-  }
-  if (!phone || !isValidPhone(phone)) {
-    return res.status(400).json({ ok: false, error: 'Please enter a valid 10-digit US phone number.' });
-  }
-  if (!email || !isValidEmail(email)) {
-    return res.status(400).json({ ok: false, error: 'Please enter a valid email address.' });
-  }
-  if (!serviceType) {
-    return res.status(400).json({ ok: false, error: 'Please select the type of concrete leveling you need.' });
-  }
-  if (!zipOrCity) {
-    return res.status(400).json({ ok: false, error: 'Please enter your property city or ZIP code.' });
-  }
-  if (!consent) {
-    return res.status(400).json({ ok: false, error: 'You must agree to be contacted to submit a quote request.' });
-  }
-
+  const marketingSmsConsent = body.marketing_sms_consent === true || body.marketing_sms_consent === 'true' || body.marketing_sms_consent === 'on' ? 1 : 0;
+  const projectUpdateSmsConsent = body.project_update_sms_consent === true || body.project_update_sms_consent === 'true' || body.project_update_sms_consent === 'on' ? 1 : 0;
+  if (!name || name.length < 2) return res.status(400).json({ ok: false, error: 'Please enter your full name.' });
+  if (!phone || !isValidPhone(phone)) return res.status(400).json({ ok: false, error: 'Please enter a valid 10-digit US phone number.' });
+  if (!email || !isValidEmail(email)) return res.status(400).json({ ok: false, error: 'Please enter a valid email address.' });
+  if (!serviceType) return res.status(400).json({ ok: false, error: 'Please select the type of concrete leveling you need.' });
+  if (!zipOrCity) return res.status(400).json({ ok: false, error: 'Please enter your property city or ZIP code.' });
   const id = crypto.randomUUID();
   const nowIso = new Date().toISOString();
-
-  const lead = {
-    id,
-    created_at: nowIso,
-    name,
-    phone,
-    email,
-    service_type: serviceType,
-    zip_or_city: zipOrCity,
-    description: description || null,
-    preferred_contact_method: preferredContactMethod,
-    consent_text_version: body.consent_text_version || CONSENT_TEXT_VERSION,
-    consent_timestamp: nowIso,
-    source_ip: req.ip || null,
-    user_agent: req.get('user-agent') || null
-  };
-
-  try {
-    insertLead(lead);
-  } catch (err) {
-    console.error('Failed to persist lead:', err.message);
-    return res.status(500).json({ ok: false, error: 'Something went wrong saving your request. Please try again.' });
-  }
-
-  // Never log full phone/email -- id + service_type + zip/city is enough to find the row.
-  console.log(`NEW LEAD: id=${lead.id} service_type="${lead.service_type}" zip_or_city="${lead.zip_or_city}"`);
-
+  const lead = { id, created_at: nowIso, name, phone, email, service_type: serviceType, zip_or_city: zipOrCity, description: description || null, preferred_contact_method: preferredContactMethod, marketing_sms_consent: marketingSmsConsent, project_update_sms_consent: projectUpdateSmsConsent, consent_version: body.consent_version || CONSENT_TEXT_VERSION, consent_timestamp: nowIso, source_ip: req.ip || null, user_agent: req.get('user-agent') || null };
+  try { insertLead(lead); } catch (err) { console.error('Failed to persist lead:', err.message); return res.status(500).json({ ok: false, error: 'Something went wrong saving your request. Please try again.' }); }
+  console.log(`NEW LEAD: id=${lead.id} service_type="${lead.service_type}" zip_or_city="${lead.zip_or_city}" marketing_sms=${marketingSmsConsent} project_sms=${projectUpdateSmsConsent}`);
   return res.status(200).json({ ok: true });
 });
-
-// ---------------------------------------------------------------------------
-// 404 handler
-// ---------------------------------------------------------------------------
 
 app.use((req, res) => {
   const page = content.pages['404'];
   const meta = metaMap['404'];
   const { renderHero, renderBodySections, renderCtaBand } = require('./src/lib/pageBuilder');
-
-  const bodyHtml = `
-    <section class="hero hero-404">
-      <div class="container hero-inner">
-        <div class="hero-content">
-          <h1 class="hero-title">${escapeHtml(page.h1)}</h1>
-          <p class="hero-subhead">${escapeHtml(page.hero_subhead)}</p>
-        </div>
-      </div>
-    </section>
-    <div class="container content-sections-wrap">${renderBodySections(page.body_sections)}</div>
-    ${renderCtaBand({ ctaText: page.cta_text, ctaButtonLabel: page.cta_button_label })}
-  `;
-
-  const html = renderPage({
-    title: meta.title,
-    description: meta.description,
-    canonicalPath: req.path,
-    bodyHtml
-  });
-
+  const bodyHtml = `\n    <section class="hero hero-404">\n      <div class="container hero-inner">\n        <div class="hero-content">\n          <h1 class="hero-title">${escapeHtml(page.h1)}</h1>\n          <p class="hero-subhead">${escapeHtml(page.hero_subhead)}</p>\n        </div>\n      </div>\n    </section>\n    <div class="container content-sections-wrap">${renderBodySections(page.body_sections)}</div>\n    ${renderCtaBand({ ctaText: page.cta_text, ctaButtonLabel: page.cta_button_label })}\n  `;
+  const html = renderPage({ title: meta.title, description: meta.description, canonicalPath: req.path, bodyHtml });
   res.status(404).type('html').send(html);
 });
 
-// ---------------------------------------------------------------------------
-
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Omaha Concrete Lift server listening on 0.0.0.0:${PORT}`);
-});
+app.listen(PORT, '0.0.0.0', () => { console.log(`Omaha Concrete Lift server listening on 0.0.0.0:${PORT}`); });
 
 module.exports = app;
